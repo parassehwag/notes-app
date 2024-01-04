@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+    color: white;
+    font-family: 'Dhurjati', sans-serif;
+}
+
+.container {
+    margin-top: 80px;
+    margin-left: 160px;
+}
+
+.heading {
+    display: flex;
+}
+
+.heading img {
+    width: 80px;
+}
+
+.heading p {
+    padding-left: 10px;
+    font-size: 50px;
+}
+.button button{
+    margin-top: 5px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(77, 22, 129);
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.notesArea{
+    display: flex;
+    padding-top: 12px;
+    max-width: 450px;
+    position: relative;
+}
+
+.notesArea textarea{
+    width: 100%;
+    resize: none;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.notesArea img{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    cursor: pointer;
+}
